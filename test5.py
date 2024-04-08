@@ -1,3 +1,6 @@
+#Nom=Randrianarivony
+#prenom=Andritiana Richie
+#exo 1
 def table_verite_forme_canonique(expression_logique):
     # Extraction des variables de l'expression logique
     variables = set([char for char in expression_logique if char.isupper()])
