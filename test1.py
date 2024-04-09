@@ -1,4 +1,6 @@
-
+#Nom=Randrianarivony
+#prenom=Andritiana Richie
+#exo 1
 def table_verite_forme_canonique(expression_logique):
     from itertools import product
 
