@@ -1,6 +1,15 @@
 #Nom=Randrianarivony
 #prenom=Andritiana Richie
 #exo 1
+'''
+Algorithme :
+1. Demander à l'utilisateur d'entrer la fonction logique sous forme d'expression booléenne.
+2. Créer une liste de toutes les combinaisons possibles des variables d'entrée.
+3. Évaluer la fonction logique pour chaque combinaison d'entrée et stocker les résultats dans une liste.
+4. Afficher la table de vérité en mettant en correspondance les combinaisons d'entrée avec les résultats.
+5. Calculer la première forme canonique en utilisant les termes de conjonction qui donnent un résultat vrai.
+6. Calculer la deuxième forme canonique.
+'''
 def table_verite_forme_canonique(expression_logique):
     from itertools import product
 
